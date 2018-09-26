@@ -18,11 +18,6 @@
         <item name="android:layout_width">match_parent</item>
     </style>
 
-
-    <style name="Lesson2LinearLayout">
-
-    </style>
-
     <style name="Lesson2TextViewVertical">
         <item name="android:textSize">30sp</item>
         <item name="android:layout_height">0dp</item>
@@ -39,6 +34,15 @@
         <item name="android:paddingLeft">30dp</item>
         <item name="android:paddingRight">30dp</item>
         <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Lesson2LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">70dp</item>
+        <item name="android:layout_marginRight">70dp</item>
+        <item name="android:layout_marginBottom">70dp</item>
     </style>
 
 </resources>
