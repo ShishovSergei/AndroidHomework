@@ -3,4 +3,6 @@
     <string name="first_text">Nice text</string>
     <string name="second_text">Even nicer text</string>
     <string name="button_text">Magic flip</string>
+    <string name="start_lesson1_text">Lesson 1</string>
+    <string name="start_lesson2_text">Lesson 2</string>
 </resources>

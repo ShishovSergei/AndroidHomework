@@ -1,4 +1,4 @@
-package com.gmail.shishovergeiwork.androidhomework;
+package com.gmail.shishovergeiwork.lesson1;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
@@ -7,6 +7,8 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.gmail.shishovergeiwork.androidhomework.R;
 
 public class Lesson1Activity extends Activity implements View.OnClickListener {
 

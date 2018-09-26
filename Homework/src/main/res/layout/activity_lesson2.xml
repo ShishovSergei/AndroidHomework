@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFontColor">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorRed" />
+
+            <TextView style="@style/Lesson2TextViewVertical" />
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorRed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorRed"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorRed" />
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorRed" />
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:layout_weight="2"
+                android:background="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/Lesson2TextViewHorizontal"
+                android:background="@color/colorGreen" />
+
+            <TextView style="@style/Lesson2TextViewHorizontal" />
+
+            <TextView
+                style="@style/Lesson2TextViewHorizontal"
+                android:background="@color/colorRed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <TextView style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorDarkYellow"
+                android:layout_weight="2"/>
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorDarkBlue" />
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorRed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Lesson2TextViewVertical"
+                    android:layout_height="100dp"
+                    android:background="@color/colorWhite" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/Lesson2TextViewVertical"
+                    android:background="@color/colorRed" />
+
+                <TextView
+                    style="@style/Lesson2TextViewVertical"
+                    android:background="@color/colorGreen" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorDarkRed" />
+
+            <TextView style="@style/Lesson2TextViewVertical" />
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:layout_weight="2"
+                android:background="@color/colorDarkBlue" />
+
+            <TextView style="@style/Lesson2TextViewVertical" />
+
+            <TextView
+                style="@style/Lesson2TextViewVertical"
+                android:background="@color/colorDarkRed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorRed"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorWhite"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/colorWhite"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:textSize="30sp"
+                    android:layout_marginLeft="50dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

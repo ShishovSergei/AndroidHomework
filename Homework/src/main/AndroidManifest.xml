@@ -1,3 +1,4 @@
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gmail.shishovergeiwork.androidhomework">
 
@@ -9,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
     <activity
-        android:name="com.gmail.shishovergeiwork.androidhomework.Lesson1Activity"
+        android:name="com.gmail.shishovergeiwork.lessonStarter.MainActivity"
         android:label="@string/app_name">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -17,6 +18,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
+        <activity android:name="com.gmail.shishovergeiwork.lesson1.Lesson1Activity" />
+        <activity android:name="com.gmail.shishovergeiwork.lesson2.Lesson2Activity" />
         </application>
 
 </manifest>
