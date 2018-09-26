@@ -27,9 +27,6 @@ public class Lesson3Activity extends Activity {
         final ImageView urlImage = findViewById(R.id.urlImage);
         final EditText urlText = findViewById(R.id.urlEditText);
 
-
-        System.out.println(urlText.getText().toString());
-
         urlButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
