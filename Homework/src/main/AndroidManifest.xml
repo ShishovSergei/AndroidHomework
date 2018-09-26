@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gmail.shishovergeiwork.androidhomework">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,6 +22,7 @@
     </activity>
         <activity android:name="com.gmail.shishovergeiwork.lesson1.Lesson1Activity" />
         <activity android:name="com.gmail.shishovergeiwork.lesson2.Lesson2Activity" />
+        <activity android:name="com.gmail.shishovergeiwork.lesson3.Lesson3Activity" />
         </application>
 
 </manifest>

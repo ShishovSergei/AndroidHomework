@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.gmail.shishovergeiwork.androidhomework.R;
 import com.gmail.shishovergeiwork.lesson1.Lesson1Activity;
 import com.gmail.shishovergeiwork.lesson2.Lesson2Activity;
+import com.gmail.shishovergeiwork.lesson3.Lesson3Activity;
 
 public class MainActivity extends Activity {
 
@@ -20,6 +21,7 @@ public class MainActivity extends Activity {
 
         Button lesson1Button = findViewById(R.id.lesson1Button);
         Button lesson2Button = findViewById(R.id.lesson2Button);
+        Button lesson3Button = findViewById(R.id.lesson3Button);
 
         lesson1Button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +34,12 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 showActivity(Lesson2Activity.class);
+            }
+        });
+        lesson3Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showActivity(Lesson3Activity.class);
             }
         });
 
