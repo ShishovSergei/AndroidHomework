@@ -10,10 +10,11 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/Austria"
+            style="@style/Lesson2LinearLayout"
             android:background="@color/colorWhite"
             android:orientation="vertical"
-            android:weightSum="3"
-            style="@style/Lesson2LinearLayout">
+            android:weightSum="3">
 
             <TextView
                 style="@style/Lesson2TextViewVertical"
@@ -27,6 +28,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/Poland"
             style="@style/Lesson2LinearLayout"
             android:background="@color/colorRed"
             android:orientation="vertical"
@@ -47,6 +49,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/Italy"
             style="@style/Lesson2LinearLayout"
             android:background="@color/colorWhite"
             android:orientation="horizontal"
@@ -64,6 +67,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/Colombia"
             style="@style/Lesson2LinearLayout"
             android:background="@color/colorWhite"
             android:orientation="vertical"
@@ -82,6 +86,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/Madagascar"
             style="@style/Lesson2LinearLayout"
             android:orientation="horizontal"
             android:weightSum="3">
@@ -118,6 +123,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/Thailand"
             style="@style/Lesson2LinearLayout"
             android:background="@color/colorWhite"
             android:orientation="vertical"
@@ -142,6 +148,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/Denmark"
             style="@style/Lesson2LinearLayout"
             android:background="@color/colorRed"
             android:orientation="vertical"
