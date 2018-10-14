@@ -3,6 +3,8 @@
     package="com.gmail.shishovergeiwork.androidhomework">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -23,6 +25,9 @@
         <activity android:name="com.gmail.shishovergeiwork.lesson1.Lesson1Activity" />
         <activity android:name="com.gmail.shishovergeiwork.lesson2.Lesson2Activity" />
         <activity android:name="com.gmail.shishovergeiwork.lesson3.Lesson3Activity" />
+        <activity android:name="com.gmail.shishovergeiwork.lesson4.Lesson4Activity" />
+        <activity android:name="com.gmail.shishovergeiwork.lesson5.Lesson5Activity" />
+        <activity android:name="com.gmail.shishovergeiwork.lesson6.Lesson6Activity" />
         </application>
 
 </manifest>

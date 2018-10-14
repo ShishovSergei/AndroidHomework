@@ -6,7 +6,16 @@
     <string name="start_lesson1_text">Lesson 1</string>
     <string name="start_lesson2_text">Lesson 2</string>
     <string name="start_lesson3_text">Lesson 3</string>
+    <string name="start_lesson4_text">Lesson 4</string>
+    <string name="start_lesson5_text">Lesson 5</string>
+    <string name="start_lesson6_text">Lesson 6</string>
     <string name="urlText">Enter URL:</string>
     <string name="testUrl">https://2ch.hk/re/src/521593/15198506709760.jpg</string>
     <string name="getImageButtonText">Get image!</string>
+    <string name="editTextForPieDiagram">Enter 3 digits:</string>
+    <string name="hint1">Enter digit 1</string>
+    <string name="hint2">Enter digit 2</string>
+    <string name="diagramButtonText">Create diagram</string>
+    <string name="hint3">Enter digit 3</string>
+    <string name="wifiIsOff">Wifi is OFF</string>
 </resources>

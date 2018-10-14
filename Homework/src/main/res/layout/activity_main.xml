@@ -14,4 +14,16 @@
         android:id="@+id/lesson3Button"
         android:text="@string/start_lesson3_text"
         style="@style/MainActivityButton"/>
+    <Button
+        android:id="@+id/lesson4Button"
+        android:text="@string/start_lesson4_text"
+        style="@style/MainActivityButton"/>
+    <Button
+        android:id="@+id/lesson5Button"
+        android:text="@string/start_lesson5_text"
+        style="@style/MainActivityButton"/>
+    <Button
+        android:id="@+id/lesson6Button"
+        android:text="@string/start_lesson6_text"
+        style="@style/MainActivityButton"/>
 </LinearLayout>

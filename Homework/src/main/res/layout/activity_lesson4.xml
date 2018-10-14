@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/animationImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/diagramLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editTextForPieDiagram"
+            style="@style/TextInButtonsAndEditTexts"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <EditText
+                android:id="@+id/Digit1"
+                style="@style/TextInButtonsAndEditTexts"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint1" />
+
+            <EditText
+                android:id="@+id/Digit2"
+                style="@style/TextInButtonsAndEditTexts"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint2" />
+
+            <EditText
+                android:id="@+id/Digit3"
+                style="@style/TextInButtonsAndEditTexts"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint3" />
+
+        </LinearLayout>
+        <Button
+            style="@style/TextInButtonsAndEditTexts"
+            android:id="@+id/createDiagramButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diagramButtonText"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

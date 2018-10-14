@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/wifiState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wifiIsOff"
+        android:textSize="50dp"
+        style="@style/TextInButtonsAndEditTexts" />
+
+    <com.gmail.shishovergeiwork.lesson5.ClockView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
