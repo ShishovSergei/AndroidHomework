@@ -23,7 +23,7 @@ class Lesson5Activity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson5)
 
-        wifiState = findViewById(com.gmail.shishovergeiwork.androidhomework.R.id.wifiState)
+        wifiState = this.findViewById(com.gmail.shishovergeiwork.androidhomework.R.id.wifiState)
         wifiManager = applicationContext.getSystemService(Context.WIFI_SERVICE) as WifiManager
         wifiState.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked) {

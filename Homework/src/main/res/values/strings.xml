@@ -18,4 +18,6 @@
     <string name="diagramButtonText">Create diagram</string>
     <string name="hint3">Enter digit 3</string>
     <string name="wifiIsOff">Wifi is OFF</string>
+    <string name="wifiIs">Wifi is ?</string>
+    <string name="change_wifi">Change Wifi</string>
 </resources>
